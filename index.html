@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Satisfacción</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Encuesta de Satisfacción</h1>
+        <form id="survey-form">
+            <div class="question">
+                <p>1. ¿Qué tan satisfecho está con nuestro servicio?</p>
+                <label><input type="radio" name="Satisfacción con el Servicio" value="Muy Satisfecho"> Muy Satisfecho</label><br>
+                <label><input type="radio" name="Satisfacción con el Servicio" value="Satisfecho"> Satisfecho</label><br>
+                <label><input type="radio" name="Satisfacción con el Servicio" value="Neutral"> Neutral</label><br>
+                <label><input type="radio" name="Satisfacción con el Servicio" value="Insatisfecho"> Insatisfecho</label><br>
+                <label><input type="radio" name="Satisfacción con el Servicio" value="Muy Insatisfecho"> Muy Insatisfecho</label>
+            </div>
+            <div class="question">
+                <p>2. ¿Recomendaría nuestro servicio a un amigo?</p>
+                <label><input type="radio" name="Recomendación" value="Definitivamente Sí"> Definitivamente Sí</label><br>
+                <label><input type="radio" name="Recomendación" value="Probablemente Sí"> Probablemente Sí</label><br>
+                <label><input type="radio" name="Recomendación" value="No Estoy Seguro"> No Estoy Seguro</label><br>
+                <label><input type="radio" name="Recomendación" value="Probablemente No"> Probablemente No</label><br>
+                <label><input type="radio" name="Recomendación" value="Definitivamente No"> Definitivamente No</label>
+            </div>
+            <div class="question">
+                <p>3. ¿Cómo calificaría la calidad de nuestra atención al cliente?</p>
+                <label><input type="radio" name="Calidad de Atención" value="Excelente"> Excelente</label><br>
+                <label><input type="radio" name="Calidad de Atención" value="Buena"> Buena</label><br>
+                <label><input type="radio" name="Calidad de Atención" value="Regular"> Regular</label><br>
+                <label><input type="radio" name="Calidad de Atención" value="Mala"> Mala</label><br>
+                <label><input type="radio" name="Calidad de Atención" value="Muy Mala"> Muy Mala</label>
+            </div>
+            <div class="question">
+                <p>4. ¿Qué tan fácil fue usar nuestros productos o servicios?</p>
+                <label><input type="radio" name="Facilidad de Uso" value="Muy Fácil"> Muy Fácil</label><br>
+                <label><input type="radio" name="Facilidad de Uso" value="Fácil"> Fácil</label><br>
+                <label><input type="radio" name="Facilidad de Uso" value="Regular"> Regular</label><br>
+                <label><input type="radio" name="Facilidad de Uso" value="Difícil"> Difícil</label><br>
+                <label><input type="radio" name="Facilidad de Uso" value="Muy Difícil"> Muy Difícil</label>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="results"></div>
+    </div>
+
+    <script src="./js/functions.js"></script>
+</body>
+
+</html>
